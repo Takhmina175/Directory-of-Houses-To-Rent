@@ -209,7 +209,6 @@
     height: 36vh;
     width: 36vw;   
 }
-
 }
 
 @media (min-width: 768px) {
@@ -256,7 +255,6 @@
 
 }
 
-
 @media (min-width: 1200px) {
 .side-image {
    width: 22vw;
@@ -271,5 +269,3 @@
     padding-top: 70vh;
 }
 }
-
-
