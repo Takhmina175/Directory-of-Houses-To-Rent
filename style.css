@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.icon-style-map{
+    font-size: 2rem;   
+}
+.header-icons{
+    font-size: 1rem;
+}
+.smaller-font{
+    font-size: 0.9rem;
+}
+.smallest-font{
+    font-size: 0.6rem;
+}
+.f-size{
+    font-size: 1.2rem;
+}
+.f-size-icons{
+    font-size: 1.2rem;
+}
+.bck-color{   
+    background-color: #d35649;
+}
+.c-white{
+    color: white;
+}
+.btn-bck-col{
+    background-color: white;
+}
+.bck-transp{
+    background-color: transparent;
+}
+.gap{
+    gap: 2.5rem; 
+}
+.back-img{
+    background-image: url(images/front-img.png);
+    width: 100%;
+    height: auto;
+}
+.back-img-height{
+    height: 80vh;
+}
+.bck-img-prop{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search-btn-prop{
+    margin-top: 0.3rem;
+    padding: 0.2rem 0.1rem;
+    border-radius: 0;
+    border: none;
+}
+.bor-rad-0{
+    border-radius: 0;
+}
+.card-bck-color{
+    background-color: rgba(223, 228, 234,0.4);
+    border-radius: 15px;
+}
+.hw-it-works-btn{
+    background-color:rgba(223, 228, 234,1.0) ;
+}
+.bck-color-grey{
+    background-color: #747d8c;
+}
+.foot-bck-col{
+    background-color: #2C3A47;
+}
+.pad-t{
+    padding-top: 25%;
+}
+
+.br-none{
+    border: none;
+}
+.card ul li{
+   padding: 0.4rem;
+}
+.side-image{
+    background-image: url(images/map.jpg);
+    height: 28vh;
+    width: 50vw;
+}
+.side-image-3{
+    background-image: url(images/real-estate-agent.jpg);
+}
+.side-image-2{
+    background-image: url(images/houses.jpg);
+}
+
+.srch-inf-cont{
+    max-width: 25rem;
+    margin: 0 auto;
+}
+.btn-pad{
+    padding: 0.3rem;
+}
+.padding-zero{
+    padding: 0;
+}
+.bord-top{
+    border-top: 2px solid #95a5a6;
+}
+.bord-bott{
+    border-bottom: 2px solid #95a5a6;
+}
+
+.bord-email{
+    border: 2px solid #95a5a6;
+}
+.card-border{
+    border: 1px solid #bdc3c7;
+}
+.mrg{
+    margin: 0 auto;
+}
+
+.text-col{
+    color: #7f8fa6;
+}
+.ft-text{
+    color: #bdc3c7;
+}
+.cont-col{
+    color: #95afc0;
+}
+.btn-srch-cl{
+    background-color: #457db4;
+}
+.btn-srch-clear{
+    background-color: #e5ab5b;
+}
+.bck-clip-unset{
+    background-clip: border-box;
+}
+.bck-house-img{
+    background-image: linear-gradient(to bottom, rgba(216, 94, 75, 0.87), rgba(216, 94, 75, 0.82)), url(images/buy-property-turkey.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 18rem;
+}
+.line-h ul li{
+    height: 10vh;
+    text-align: left;
+}
+
+.col-shadow{
+    width: 16rem;
+    box-shadow: 0 0 16px 2px #98a4a5;
+    text-align: center;
+}
+.map{
+    background-image: url(images/map.png);
+    padding-top: 25vh;
+}
+.directions-col{
+    color: #d35649;
+}
+.letter-spacing {
+    letter-spacing: 3px;
+}
+.txt-cl{
+    color: black;
+}
+.social-media-col{
+    color: #457db4;
+}
+.card-prop{
+    width: 55%;
+    margin: 0 auto;
+}
+.ft-card-mx-width{
+    max-width: 21rem;
+}
+.max-wdth-card{
+    max-width: 23rem;
+}
+.bx-shadow{
+    box-shadow:2px 5px#d2dae2
+}
+.card-width{
+    width: 60vw;
+}
+.col-wdth{
+    width: 56vw;
+}
+.card-image-cap{
+    background-image: url(images/istanbul-city-apartments.jpg);
+    padding-top: 50vh;
+}
+
+@media (min-width: 576px) {
+.mrg-top{
+    margin-top: 1%;
+}
+.flexBox{
+    align-self: flex-start;
+}
+.search-btn-prop {
+    margin-top: 0;
+}
+.side-image{
+    height: 36vh;
+    width: 36vw;   
+}
+
+}
+
+@media (min-width: 768px) {
+.search-bar{
+    width: 75%;
+    margin: 0 auto;
+}
+.mrg-l{
+    margin-left: 12%;
+}
+.side-image {
+    width: 31vw;
+
+}
+.card-prop {
+    width: 100%;
+    align-self: center;
+}
+.result-pg{
+    padding-left: 0;
+    padding-right: 0;
+}
+.max-wdth{
+    max-width: 36rem;
+}
+.ft-sz{
+    font-size: 1rem;
+}
+.col-md6{
+    max-width: 45%;
+    height: 15vh;
+}
+.card-width{
+    width: 80vw;
+    height: 55vh
+}
+
+}
+
+@media (min-width: 992px) {
+.pad-t {
+    padding-top: 18%;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+.side-image {
+   width: 22vw;
+}
+.pd-lg-screen{
+    padding-left: 2rem;
+}
+.mrg-lg-screen{
+    margin: 0 auto;
+}
+.map{
+    padding-top: 70vh;
+}
+}
+
+
