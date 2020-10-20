@@ -4,7 +4,7 @@ House/apartments renting portal
 
 > The project developed to help tourists find a house or apartment while staying or traveling around Turkey. The portal provides search results with the option of price and place to stay. 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
 
 
@@ -16,7 +16,8 @@ House/apartments renting portal
 
 ## Live Demo
 
-[Live Demo Link](https://www.loom.com/share/6da1b3fa37bb4595b8c9c1f4bd9cd6a2)
+[Video Demo Link](https://www.loom.com/share/6da1b3fa37bb4595b8c9c1f4bd9cd6a2)
+[Website Demo Link]https://takhmina175.github.io/Directory-of-Houses-To-Rent/.
 
 
 ## Getting Started
