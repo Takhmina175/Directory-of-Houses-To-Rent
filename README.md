@@ -16,7 +16,7 @@ House/apartments renting portal
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://www.loom.com/share/6da1b3fa37bb4595b8c9c1f4bd9cd6a2)
 
 
 ## Getting Started
