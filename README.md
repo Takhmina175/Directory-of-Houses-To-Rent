@@ -4,7 +4,7 @@ House/apartments renting portal
 
 > The project developed to help tourists find a house or apartment while staying or traveling around Turkey. The portal provides search results with the option of price and place to stay. 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
 
 
