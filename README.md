@@ -17,7 +17,10 @@ House/apartments renting portal
 ## Live Demo
 
 [Video Demo Link](https://www.loom.com/share/6da1b3fa37bb4595b8c9c1f4bd9cd6a2)
-[Website Demo Link]https://takhmina175.github.io/Directory-of-Houses-To-Rent/.
+
+## Video Explanation
+
+[Website Demo Link](https://takhmina175.github.io/Directory-of-Houses-To-Rent/.)
 
 
 ## Getting Started
