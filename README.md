@@ -16,11 +16,11 @@
 
 ## Live Demo
 
-[Video Demo Link](https://www.loom.com/share/6da1b3fa37bb4595b8c9c1f4bd9cd6a2)
+[Live Demo Link](https://takhmina175.github.io/Directory-of-Houses-To-Rent/)
 
 ## Video Explanation
 
-[Website Demo Link](https://takhmina175.github.io/Directory-of-Houses-To-Rent/.)
+[Website Demo Link](https://www.loom.com/share/6da1b3fa37bb4595b8c9c1f4bd9cd6a2)
 
 
 ## Getting Started
