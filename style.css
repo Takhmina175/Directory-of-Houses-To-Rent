@@ -17,7 +17,7 @@
 }
 
 .smallest-font {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .f-size {
@@ -107,6 +107,7 @@
 
 .card ul li {
   padding: 0.4rem;
+  border: none;
 }
 
 .side-image {
@@ -224,7 +225,7 @@
 }
 
 .max-wdth-card {
-  max-width: 23rem;
+  max-width: 24rem;
 }
 
 .bx-shadow {
@@ -251,6 +252,7 @@
 .btn-mg-top {
   margin-top: 4%;
 }
+
 
 @media (min-width: 576px) {
   .mrg-top {
@@ -300,7 +302,7 @@
   }
 
   .ft-sz {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .col-md6 {
@@ -314,7 +316,7 @@
   }
 
   .btn-mg-top {
-    margin-top: 8%;
+    margin-top: 7%;
   }
 
   .btn-height {
@@ -325,12 +327,24 @@
   .max-wdth-card {
     max-width: 29rem;
   }
+  .container-mrg-l{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  
 }
 
 @media (min-width: 992px) {
-  .pad-t {
+.pad-t {
     padding-top: 18%;
   }
+.btn-mg-top {
+    margin-top: 5%;
+}
+.max-wdth {
+    max-width: 43rem;
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -364,7 +378,7 @@
   }
 
   .max-wdth {
-    max-width: 60rem;
+    max-width: 49rem;
   }
 
   .ft-card-mx-width {
@@ -384,6 +398,19 @@
   }
 
   .btn-mg-top {
-    margin-top: 4%;
+    margin-top: 5%;
   }
+  .btn-height {
+    height: 2.4rem;
+    width: 6rem;
+    font-size: 0.9rem;
 }
+.ft-sz {
+    font-size: 20px;
+}
+.container-mrg-l{
+    margin-left: 2%;
+}
+}
+  
+
