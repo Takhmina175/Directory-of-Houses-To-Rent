@@ -35,17 +35,18 @@
                   <div class="d-flex flex-column flex-md-row ">
                         <!--City-->
                       <div class="col-12 col-md-3 result-pg">
-                        <label for="inputname"><h5 class="ft-sz">City</h5></label>
-                        <input type="text" class="form-control bor-rad-0" placeholder="Istanbul">
+                        <label for="city" class="ft-sz">
+                          City</label>
+                        <input type="text" class="form-control bor-rad-0" id="city" placeholder="Istanbul">
                       </div>
 
                         <!--District-->
                       <div class="col-12 col-md-3 result-pg">
-                        <label for="inputState">
-                            <h5 class="ft-sz">District</h5></label>
-                        <select id="inputState"
+                        <label for="inputState-2" class="ft-sz">
+                          District</label>
+                        <select id="inputState-2"
                          class="form-control bor-rad-0">
-                            <option selected></option>
+                            <option selected>select district</option>
                             <option>Sultanahmet</option>
                             <option>Taksim</option>
                             <option>Uskudar</option>
@@ -54,11 +55,11 @@
                       </div>
                         <!--Price-Category-->
                       <div class="col-12 col-md-3 result-pg">
-                        <label for="inputState">
-                            <h5 class="ft-sz">Price Category</h5></label>
-                        <select id="inputState"
+                        <label for="inputState-1" class="ft-sz">
+                            Price Category</label>
+                        <select id="inputState-1"
                          class="form-control bor-rad-0">
-                            <option selected></option>
+                            <option selected>Price</option>
                             <option>Luxury</option>
                             <option>Mid-Range</option>
                             <option>Budget</option>
@@ -66,12 +67,12 @@
                         </select>
                       </div>
                         <!--Houses-->
-                      <div class="col-12 col-md-3 result-pg">
-                        <label for="inputState">
-                            <h5 class="ft-sz">Houses/Appartments</h5></label>
+                      <div class="col-12 col-md-3 result-pg" id="houses">
+                        <label for="inputState" class="ft-sz">
+                            Houses/Appartments</label>
                         <select id="inputState"
                          class="form-control bor-rad-0">
-                            <option selected></option>
+                            <option selected>Houses</option>
                             <option>House-1</option>
                             <option>House-2</option>
                             <option>House-3</option>
@@ -80,7 +81,7 @@
                       </div>                                        
                       <!--Search-btn-->
                       <div class="d-flex btn-mg-top">
-                        <a href="application-page.html"><button type="button" class="btn btn-srch-cl btn-height smallest-font">Search</button></a>
+                        <a href="application-page.html" class="btn btn-srch-cl btn-height smallest-font">Search</a>
                         <button type="button" class="btn btn-srch-clear btn-height smallest-font p-0"><i class="fas fa-eraser"></i>Clear filter</button>
                     </div>
                   </div>
@@ -98,9 +99,9 @@
                     <div class="card">                      
                         <div class="card-body p-0">
                             <div class="bck-house-img">
-                                <div class="p-2 pt-4 line-h">
+                                <div class="p-2 pt-4">
                                 
-                                <ul class="list-group list-group-flush text-center">
+                                <ul class="list-group list-group-flush text-center line-h">
                                     <li class="list-group-item bck-transp br-none">
                                         <h6 class="c-white">
                                           <a href="application-page.html" class="c-white text-decoration-none"> Location: Istanbul
@@ -297,15 +298,15 @@
           <div class="col-12 col-md-4 col-lg-4 ft-card-mx-width mrg">
             <div class="card bck-transp mrg br-none d-flex flex-column">
               <div class="card-header text-uppercase font-weight-bold br-none">
-                <h4 class="text-center c-white">subscribe</h4> 
+                <h4 class="text-center c-white subscribe">subscribe</h4> 
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item bck-transp br-none">
-                    <input type="email" class="form-control bor-rad-0 bck-transp bord-email text-col" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="you@example.com">
-                  </form>
+                    <input type="email" class="form-control bor-rad-0 bck-transp bord-email text-col" id="exampleInputEmail1" aria-describedby="exampleInputEmail1" placeholder="you@example.com">
+                  
                 </li>
-                <li class="list-group-item mrg bck-transp"><button type="submit" class="btn btn-primary bck-transp bord-email">
-                  <a href="#" class="c-white">Send</a></button></li>
+                <li class="list-group-item mrg bck-transp">
+                  <button type="submit" class="btn btn-primary bck-transp bord-email c-white">Send</button></li>
               </ul>
             </div>
           </div>
@@ -319,7 +320,7 @@
                     <p class="text-col text-center header-icons">Have a question or suggestion</p>
                 </li>
                 <li class="list-group-item mrg bck-transp">
-                  <a href="#" class="text-danger">info@rentHouse.com</a></button></li>
+                  <a href="#" class="text-danger">info@rentHouse.com</a></li>
               </ul>
             </div>
           </div>
@@ -334,7 +335,7 @@
                       A house-rent searching portal was build to help tourist to find the most suitable houses for affordible price and high quality standard.We want our tourist have the best joyful and pleasent experience while staying in Turkey.</p>
                 </li>
                 <li class="list-group-item bck-transp text-center">
-                  <a href="#" class="text-danger">https://www.rent-house.tr.com</a></button></li>
+                  <a href="#" class="text-danger">https://www.rent-house.tr.com</a></li>
               </ul>
             </div>
           </div>
