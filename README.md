@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-House/apartments renting portal
+<h1>House/apartments renting portal</h1>
 
 > The project developed to help tourists find a house or apartment while staying or traveling around Turkey. The portal provides search results with the option of price and place to stay. 
 
