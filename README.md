@@ -60,8 +60,13 @@ html5validator index.html
 - Twitter: [@Takhmina](https://twitter.com/Takhmin73630110)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/takhmina-makhkamova-7628136b/)
 
+## Acknowledgment
+
+This project was built based on the Mathew Njuguna and Sam Achola design available on Behance. 
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+All rights reserved to Mathew Njuguna, Sam Achola and Takhmina Makhkamova.
 

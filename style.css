@@ -11,8 +11,9 @@
 .header-icons {
   font-size: 1rem;
 }
-.header-a:hover{
-   color: white;
+
+.header-a:hover {
+  color: white;
 }
 
 .smaller-font {
@@ -30,8 +31,9 @@
 .f-size-icons {
   font-size: 1.2rem;
 }
-.fnt-size-mobsize{
-    font-size: 1.5rem;
+
+.fnt-size-mobsize {
+  font-size: 1.5rem;
 }
 
 .bck-color {
@@ -256,12 +258,12 @@
 }
 
 .btn-mg-top {
-    margin: 4% auto;
-}
-.p-1{
-    padding: 1%;
+  margin: 4% auto;
 }
 
+.p-1 {
+  padding: 1%;
+}
 
 @media (min-width: 576px) {
   .mrg-top {
@@ -336,30 +338,33 @@
   .max-wdth-card {
     max-width: 29rem;
   }
-  .container-mrg-l{
+
+  .container-mrg-l {
     margin-left: 2%;
     margin-right: 2%;
-}
-.container-fluid {
+  }
+
+  .container-fluid {
     margin-right: 23%;
-}
-.centering-elem{
+  }
+
+  .centering-elem {
     margin: 0 auto;
-}
-  
+  }
 }
 
 @media (min-width: 992px) {
-.pad-t {
+  .pad-t {
     padding-top: 18%;
   }
-.btn-mg-top {
-    margin-top: 5%;
-}
-.max-wdth {
-    max-width: 43rem;
-}
 
+  .btn-mg-top {
+    margin-top: 5%;
+  }
+
+  .max-wdth {
+    max-width: 43rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -370,6 +375,7 @@
   .pd-lg-screen {
     padding-left: 2rem;
   }
+
   .line-h li {
     height: 10vh;
   }
@@ -419,17 +425,19 @@
   .btn-mg-top {
     margin-top: 5%;
   }
+
   .btn-height {
     height: 2.4rem;
     width: 6rem;
     font-size: 0.9rem;
-}
-.ft-sz {
+  }
+
+  .ft-sz {
     font-size: 20px;
-}
-.container-mrg-l{
+  }
+
+  .container-mrg-l {
     margin-left: 2%;
+  }
 }
-}
-  
 
