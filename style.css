@@ -11,6 +11,9 @@
 .header-icons {
   font-size: 1rem;
 }
+.header-a:hover{
+   color: white;
+}
 
 .smaller-font {
   font-size: 0.9rem;
@@ -104,7 +107,7 @@
 }
 
 .line-h li {
-  height: 10vh;
+  height: 8vh;
   text-align: left;
 }
 
@@ -367,6 +370,9 @@
   .pd-lg-screen {
     padding-left: 2rem;
   }
+  .line-h li {
+    height: 10vh;
+  }
 
   .mrg-lg-screen {
     margin: 0 auto;
@@ -386,11 +392,12 @@
   }
 
   .bck-house-img {
-    height: 22rem;
+    height: 24rem;
   }
 
   .max-wdth {
     max-width: 49rem;
+    margin: 0 auto;
   }
 
   .ft-card-mx-width {
