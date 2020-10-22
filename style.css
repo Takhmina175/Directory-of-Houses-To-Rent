@@ -5,7 +5,7 @@
 }
 
 .icon-style-map {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .header-icons {
@@ -17,7 +17,7 @@
 }
 
 .smaller-font {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .smallest-font {
@@ -25,7 +25,7 @@
 }
 
 .f-size {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .f-size-icons {
@@ -97,7 +97,7 @@
 }
 
 .foot-bck-col {
-  background-color: #2c3a47;
+  background-color: black;
 }
 
 .pad-t {
@@ -154,7 +154,7 @@
 }
 
 .bord-email {
-  border: 2px solid #95a5a6;
+  border: 1px solid #95a5a6;
 }
 
 .card-border {
@@ -274,20 +274,21 @@
     align-self: flex-start;
   }
 
-  .search-btn-prop {
-    margin-top: 0;
+  .side-image {
+    height: 29vh;
+    width: 36vw;
   }
 
-  .side-image {
-    height: 36vh;
-    width: 36vw;
+  .search-btn-prop {
+    margin-top: 6px;
   }
 }
 
 @media (min-width: 768px) {
   .search-bar {
-    width: 75%;
+    width: 78%;
     margin: 0 auto;
+    height: 158px;
   }
 
   .mrg-l {
@@ -295,7 +296,7 @@
   }
 
   .side-image {
-    width: 31vw;
+    width: 237px;
   }
 
   .card-prop {
@@ -314,6 +315,18 @@
 
   .ft-sz {
     font-size: 15px;
+  }
+
+  .f-size-tab {
+    font-size: 2rem;
+  }
+
+  .f-size-article {
+    font-size: 1.6rem;
+  }
+
+  .smaller-font {
+    font-size: 1.2rem;
   }
 
   .col-md6 {
@@ -351,6 +364,28 @@
   .centering-elem {
     margin: 0 auto;
   }
+
+  .fnt-size-mobsize {
+    font-size: 2rem;
+  }
+
+  .search-bar-padd {
+    padding-bottom: 2.3rem;
+    margin-top: 1rem;
+  }
+
+  .search-btn-prop {
+    padding: 0.46rem 0.1rem;
+    margin-top: 16px;
+  }
+
+  .btn {
+    font-weight: 700;
+  }
+
+  .clearfilter-fweight {
+    font-weight: 400;
+  }
 }
 
 @media (min-width: 992px) {
@@ -369,7 +404,8 @@
 
 @media (min-width: 1200px) {
   .side-image {
-    width: 22vw;
+    width: 288px;
+    height: 251px;
   }
 
   .pd-lg-screen {
@@ -411,7 +447,7 @@
   }
 
   .f-size {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .p-ft-size {
@@ -438,5 +474,30 @@
 
   .container-mrg-l {
     margin-left: 2%;
+  }
+
+  .search-bar {
+    width: 87%;
+    height: 83%;
+  }
+
+  .search-btn-prop {
+    padding: 0.5rem 0.1rem;
+  }
+
+  h4 {
+    font-size: 1.7rem;
+  }
+
+  .fnt-size-mobsize {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    font-weight: 700;
+  }
+
+  .search-bar-padd {
+    padding-bottom: 2.3rem;
   }
 }

@@ -54,7 +54,7 @@ html5validator index.html
 
 ## Author
 
-👤 **Author1**
+👤 **Takhmina Makhkamova**
 
 - GitHub: [@Takhmina175](https://github.com/Takhmina175)
 - Twitter: [@Takhmina](https://twitter.com/Takhmin73630110)
@@ -62,7 +62,7 @@ html5validator index.html
 
 ## Acknowledgment
 
-This project was built based on the Mathew Njuguna and Sam Achola design available on Behance. 
+This project was built based on <a href="https://www.behance.net/mathewnjuguna"> the Mathew Njuguna </a> and <a href="https://www.behance.net/aweSam"> Sam Achola </a> design available on <a href="https://www.behance.net/gallery/25563385/PatashuleKE">Behance.</a> 
 
 ## Show your support
 
