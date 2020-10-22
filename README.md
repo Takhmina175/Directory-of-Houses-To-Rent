@@ -62,7 +62,7 @@ html5validator index.html
 
 ## Acknowledgment
 
-This project was built based on <a href="https://www.behance.net/mathewnjuguna"> the Mathew Njuguna </a> and <a href="https://www.behance.net/aweSam"> Sam Achola </a> design available on <a href="https://www.behance.net/gallery/25563385/PatashuleKE">Behance.</a> 
+This project was built based on the <a href="https://www.behance.net/mathewnjuguna">Mathew Njuguna</a> and <a href="https://www.behance.net/aweSam"> Sam Achola </a> design available on <a href="https://www.behance.net/gallery/25563385/PatashuleKE">Behance.</a> 
 
 ## Show your support
 

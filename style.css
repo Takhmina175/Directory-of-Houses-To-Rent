@@ -5,7 +5,10 @@
 }
 
 .icon-style-map {
-  font-size: 1.7rem;
+  font-size: 2rem;
+}
+.display-4-fsize {
+  font-size: 2.5rem;
 }
 
 .header-icons {
@@ -25,7 +28,7 @@
 }
 
 .f-size {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .f-size-icons {
@@ -120,8 +123,8 @@
 
 .side-image {
   background-image: url(images/map.jpg);
-  height: 28vh;
-  width: 50vw;
+  height: 158px;
+  width: 185px;
 }
 
 .side-image-3 {
@@ -275,8 +278,8 @@
   }
 
   .side-image {
-    height: 29vh;
-    width: 36vw;
+    height: 188px;
+    width: 261px;
   }
 
   .search-btn-prop {
@@ -289,6 +292,9 @@
     width: 78%;
     margin: 0 auto;
     height: 158px;
+  }
+  .pad-t {
+    padding-top: 15%;
   }
 
   .mrg-l {
@@ -314,11 +320,11 @@
   }
 
   .ft-sz {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .f-size-tab {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .f-size-article {
@@ -326,7 +332,7 @@
   }
 
   .smaller-font {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
   .col-md6 {
@@ -386,11 +392,14 @@
   .clearfilter-fweight {
     font-weight: 400;
   }
+  .icon-style-map {
+    font-size: 2rem;
+}
 }
 
 @media (min-width: 992px) {
   .pad-t {
-    padding-top: 18%;
+    padding-top: 11%;
   }
 
   .btn-mg-top {
@@ -410,10 +419,6 @@
 
   .pd-lg-screen {
     padding-left: 2rem;
-  }
-
-  .line-h li {
-    height: 10vh;
   }
 
   .mrg-lg-screen {
@@ -455,7 +460,10 @@
   }
 
   .smaller-font {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  .f-size-lap {
+    font-size: 2rem;
   }
 
   .btn-mg-top {
@@ -486,7 +494,7 @@
   }
 
   h4 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
   .fnt-size-mobsize {
@@ -499,5 +507,12 @@
 
   .search-bar-padd {
     padding-bottom: 2.3rem;
+  }
+  .search-res-fSize{
+    font-size: 1.5rem;
+  }
+
+  .icon-style-map {
+    font-size: 2.7rem;
   }
 }
