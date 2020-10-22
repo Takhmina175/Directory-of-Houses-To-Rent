@@ -7,6 +7,7 @@
 .icon-style-map {
   font-size: 2rem;
 }
+
 .display-4-fsize {
   font-size: 2.5rem;
 }
@@ -293,8 +294,9 @@
     margin: 0 auto;
     height: 158px;
   }
+
   .pad-t {
-    padding-top: 15%;
+    padding-top: 13%;
   }
 
   .mrg-l {
@@ -392,14 +394,15 @@
   .clearfilter-fweight {
     font-weight: 400;
   }
+
   .icon-style-map {
     font-size: 2rem;
-}
+  }
 }
 
 @media (min-width: 992px) {
   .pad-t {
-    padding-top: 11%;
+    padding-top: 18%;
   }
 
   .btn-mg-top {
@@ -416,6 +419,9 @@
     width: 288px;
     height: 251px;
   }
+  .pad-t {
+    padding-top: 8%;
+}
 
   .pd-lg-screen {
     padding-left: 2rem;
@@ -462,6 +468,7 @@
   .smaller-font {
     font-size: 1rem;
   }
+
   .f-size-lap {
     font-size: 2rem;
   }
@@ -508,7 +515,8 @@
   .search-bar-padd {
     padding-bottom: 2.3rem;
   }
-  .search-res-fSize{
+
+  .search-res-fSize {
     font-size: 1.5rem;
   }
 
