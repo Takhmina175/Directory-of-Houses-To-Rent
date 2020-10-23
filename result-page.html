@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/14e9f484c9.js"></script>
+    <script src="https://kit.fontawesome.com/7bc3c221d9.js" crossorigin="anonymous"></script>
+    <title>Result-page</title>
+  </head>
+  <body>
+    <header class="container-fluid bck-color">
+      <div class="row">         
+          <div class="col d-flex justify-content-center  icon-style-map c-white justify-content-md-start">
+              <a href="#" class="c-white"><i class="fa fa-map-marker pl-3" aria-hidden="true"></i></a>
+              <h3 class="mt-2 pl-1"><a href="index.html" class="c-white text-decoration-none"><span class="header-a">HouseRentPortal</span></a></h3>
+          </div>
+          <div class="col d-flex justify-content-center justify-content-md-end p-2 header-icons gap mrg-top">
+            <a href="#" class="c-white"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a href="#" class="c-white"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+             <a href="#" class="c-white"><i class="fa fa-wifi" aria-hidden="true"></i></a>
+             <a href="#" class="c-white"><i class="fa fa-bars pr-3" aria-hidden="true"></i></a>              
+          </div>
+      </div>
+    </header>
+    <main class="container-fluid">       
+            <div class="row">
+                <div class="jumbotron jumbotron-fluid mt-3 w-100">
+                    <div class="container-fluid max-wdth">
+                      <p class="text-center p-3 icon-style-map display-4">Filter By City, District, And Price</p>
+                  <div class="d-flex flex-column flex-md-row flex-lg-row">
+                        <!--City-->
+                  <div class="col-12 col-md-3 result-pg">
+                        <label for="city" class="ft-sz">
+                          City</label>
+                        <input type="text" class="form-control bor-rad-0" id="city" placeholder="Istanbul">
+                  </div>
+
+                        <!--District-->
+                  <div class="col-12 col-md-3 result-pg">
+                        <label for="inputState-2" class="ft-sz">
+                          District</label>
+                        <select id="inputState-2"
+                         class="form-control bor-rad-0 ft-text">
+                         <option selected>District</option>
+                            <option>Sultanahmet</option>
+                            <option>Taksim</option>
+                            <option>Uskudar</option>
+                            <option>Fatih</option>
+                        </select>
+                  </div>
+                        <!--Price-Category-->
+                  <div class="col-12 col-md-3 result-pg">
+                        <label for="inputState-1" class="ft-sz">
+                            Price Category</label>
+                        <select id="inputState-1"
+                         class="form-control bor-rad-0 ft-text">
+                            <option selected>Price</option>
+                            <option>Luxury</option>
+                            <option>Mid-Range</option>
+                            <option>Budget</option>
+                            <option>Cheep</option>
+                        </select>
+                  </div>
+                        <!--Houses-->
+                  <div class="col-12 col-md-3 result-pg" id="houses">
+                        <label for="inputState" class="ft-sz">
+                            Houses/Appartments</label>
+                        <select id="inputState"
+                         class="form-control bor-rad-0 ft-text">
+                            <option selected>Houses</option>
+                            <option>House-1</option>
+                            <option>House-2</option>
+                            <option>House-3</option>
+                            <option>House-4</option>
+                        </select>
+                  </div>                                        
+                      <!--Search-btn-->
+                  <div class="d-flex btn-mg-top">
+                        <a href="#" class="btn btn-srch-cl btn-height smallest-font c-white bor-rad-0">Search</a>
+                        <button type="button" class="btn clearfilter-fweight btn-srch-clear btn-height smallest-font p-1 bor-rad-0"><i class="fas fa-eraser"></i>Clear filter</button>
+                    </div>
+              </div>
+
+
+              </div>
+              </div>
+                  
+            </div>
+
+            <div class="row">
+              <h4 class="text-center p-3 display-4 mrg display-4-fsize ">The Search Result Found 7 Rental-Houses</h4> 
+              <div class="d-flex flex-*-fill flex-wrap container-mrg-l">
+                <div class="col-12 col-md-6 col-lg-4 mb-2 max-wdth-card pr-md-1 pr-lg-1 pl-lg-1 mrg">
+                    <div class="card">                      
+                        <div class="card-body p-0">
+                            <div class="bck-house-img">
+                                <div class="p-2 pt-4">
+                                  <ul class="list-group list-group-flush text-center line-h">
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="c-white search-res-fSize">
+                                    <a href="application-page.html" class="c-white header-a "> Location: Istanbul
+                                    </a></h6>
+                                    </li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="c-white search-res-fSize"><a href="application-page.html" class="c-white header-a"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                    District: Pera</a></h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                    Available from: 18 Nov 2020</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="far fa-calendar-check"></i>
+                                    Minimum stay: The minimum length of stay for this unit is 1 month</h6></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-2 max-wdth-card pl-md-1 pl-lg-1 pr-lg-1 mrg">
+                    <div class="card">                      
+                        <div class="card-body p-0">
+                            <div class="bck-house-img">
+                                <div class="p-2 pt-4 line-h">
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item bck-transp br-none">
+                                        <h6 class="c-white search-res-fSize">Location: Istanbul
+                                        </h6>
+                                    </li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="c-white search-res-fSize"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                    District: Pera</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                    Available from: 18 Nov 2020</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="far fa-calendar-check"></i>
+                                    Minimum stay: The minimum length of stay for this unit is 1 month</h6></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-2 max-wdth-card pr-md-1 pl-lg-1 pr-lg-1 mrg">
+                    <div class="card">                      
+                        <div class="card-body p-0">
+                            <div class="bck-house-img">
+                                <div class="p-2 pt-4 line-h">
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item bck-transp br-none">
+                                        <h6 class="c-white search-res-fSize">Location: Istanbul
+                                        </h6>
+                                    </li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="c-white search-res-fSize"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                    District: Pera</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                    Available from: 18 Nov 2020</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="far fa-calendar-check"></i>
+                                    Minimum stay: The minimum length of stay for this unit is 1 month</h6></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-2 max-wdth-card pl-md-1 pl-lg-1 pr-lg-1 mrg">
+                    <div class="card">                      
+                        <div class="card-body p-0">
+                            <div class="bck-house-img">
+                                <div class="p-2 pt-4 line-h">
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item bck-transp br-none">
+                                        <h6 class="c-white search-res-fSize">Location: Istanbul
+                                        </h6>
+                                    </li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="c-white search-res-fSize"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                    District: Pera</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                    Available from: 18 Nov 2020</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="far fa-calendar-check"></i>
+                                    Minimum stay: The minimum length of stay for this unit is 1 month</h6></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-2 max-wdth-card pr-md-1 pr-lg-1 pl-lg-1 mrg">
+                    <div class="card">                      
+                        <div class="card-body p-0">
+                            <div class="bck-house-img">
+                                <div class="p-2 pt-4 line-h">
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item bck-transp br-none">
+                                        <h6 class="c-white search-res-fSize">Location: Istanbul
+                                        </h6>
+                                    </li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="c-white search-res-fSize"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                    District: Pera</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                    Available from: 18 Nov 2020</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="far fa-calendar-check"></i>
+                                    Minimum stay: The minimum length of stay for this unit is 1 month</h6></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-2 max-wdth-card pl-md-1 pr-lg-1 pl-lg-1 mrg">
+                    <div class="card">                      
+                        <div class="card-body p-0">
+                            <div class="bck-house-img">
+                                <div class="p-2 pt-4 line-h">
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item bck-transp br-none">
+                                        <h6 class="c-white search-res-fSize">Location: Istanbul
+                                        </h6>
+                                    </li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="c-white search-res-fSize"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                    District: Pera</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                    Available from: 18 Nov 2020</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="far fa-calendar-check"></i>
+                                    Minimum stay: The minimum length of stay for this unit is 1 month</h6></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-2 max-wdth-card pr-md-1 pr-lg-1 pl-lg-1 mrg ml-md-1">
+                    <div class="card">                      
+                        <div class="card-body p-0">
+                            <div class="bck-house-img">
+                                <div class="p-2 pt-4 line-h">
+                                <ul class="list-group list-group-flush text-center">
+                                    <li class="list-group-item bck-transp br-none">
+                                        <h6 class="c-white search-res-fSize">Location: Istanbul
+                                        </h6>
+                                    </li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="c-white search-res-fSize"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                                    District: Pera</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="fa fa-calendar" aria-hidden="true"></i>
+                                    Available from: 18 Nov 2020</h6></li>
+                                    <li class="list-group-item bck-transp br-none">
+                                    <h6 class="pr-1 c-white search-res-fSize"><i class="far fa-calendar-check"></i>
+                                    Minimum stay: The minimum length of stay for this unit is 1 month</h6></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+    </main>
+    <footer class="container-fluid foot-bck-col pt-3 pb-0 pr-0 pl-0">
+      
+      <div class="bord-top bord-bott p-3 d-flex flex-wrap jus justify-content-around">
+        <div class="row text-uppercase font-weight-bold smaller-font text-center">
+          <ul class="d-flex flex-wrap flex-row list-unstyled">    
+            <li><a href="#" class="col c-white ">home</a></li>
+            <li><a href="#" class="col c-white ">search</a></li>
+            <li><a href="#" class="col c-white ">about us</a></li>
+            <li><a href="#" class="col c-white ">advertise</a></li>
+            <li><a href="#" class="col c-white ">facebook</a></li>
+            <li><a href="#" class="col c-white ">twitter</a></li>
+            <li><a href="#" class="col c-white ">blog</a></li>
+            <li><a href="#" class="col c-white ">google+</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-4 mrg">
+        <div class="row pl-2 pr-2 d-flex mr-0 ml-0">
+
+          <div class="col-12 col-md-4 col-lg-4 ft-card-mx-width mrg">
+            <div class="card bck-transp mrg br-none d-flex flex-column">
+              <div class="card-header text-uppercase font-weight-bold br-none bck-transp">
+                <h4 class="text-center c-white subscribe">subscribe</h4> 
+              </div>
+              <form>
+              <ul class="list-group list-group-flush "> 
+                <li class="list-group-item bck-transp br-none d-flex">
+                    <input type="email" class="form-control bor-rad-0 bck-transp bord-email text-col" id="exampleInputEmail1" aria-describedby="exampleInputEmail1" placeholder="you@example.com"> 
+                    <button type="submit" class="btn btn-primary bord-email c-white bck-color-grey bor-rad-0">Send</button>
+                </li>  
+              </ul>
+            </form>
+            </div>
+          </div>
+          <div class="col-12 mt-3 col-md-4 col-lg-4 ft-card-mx-width mrg">
+            <div class="card bck-transp br-none">
+              <div class="card-header text-uppercase font-weight-bold br-none padding-zero bck-transp">
+                <h4 class="text-center c-white">contact</h4> 
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bck-transp br-none">
+                    <p class="text-col text-center header-icons">Have a question or suggestion</p>
+                </li>
+                <li class="list-group-item mrg bck-transp">
+                  <a href="#" class="text-danger">info@rentHouse.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 mt-3 ft-card-mx-width mrg">
+            <div class="card bck-transp mrg br-none">
+              <div class="card-header text-uppercase font-weight-bold br-none padding-zero bck-transp">
+                <h4 class="text-center c-white">about</h4> 
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bck-transp br-none">
+                    <p class="text-col text-center mb-0">
+                      A house-rent searching portal was build to help tourist to find the most suitable houses for affordible price and high quality standard.We want our tourist have the best joyful and pleasent experience while staying in Turkey.</p>
+                </li>
+                <li class="list-group-item bck-transp text-center">
+                  <a href="#" class="text-danger">https://www.rent-house.tr.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="bck-color-grey p-3">
+        <div class="row pl-2">
+          <div class="col-12 col-md-3 ft-text">
+            <i class="fa fa-facebook pr-2" aria-hidden="true"></i>
+            <i class="fa fa-twitter pr-2" aria-hidden="true"></i>
+            <i class="fa fa-instagram pr-2" aria-hidden="true"></i>
+            <i class="fab fa-google-play pr-2"></i>
+            <i class="fab fa-tumblr pr-2"></i>
+          </div>
+          
+          <div class="col-12 col-md-9 justify-content-end d-flex flex-wrap">
+            <p class="cont-col smallest-font mb-0 text-sm-left text-md-right">COPYRIGHT © 2020 PATASHULE INC. ALL RIGHTS RESERVED. THIS PROJECT WAS BASED IN PATASHULE DESIGN MADE BY <span class="ft-text">MATHEW NJUGUNA </span> AND <span class="ft-text">SAM ACHOLA</span>.</p>
+          </div>
+
+        </div>
+      </div>
+      
+
+    </footer>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
