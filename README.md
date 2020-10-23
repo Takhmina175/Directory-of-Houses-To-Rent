@@ -2,21 +2,20 @@
 
 <h1>House/apartment renting portal</h1>
 
-> The project developed to help tourists find a house or apartment while staying or traveling around Turkey. The portal provides search results with the option of price and place to stay. 
+><p>Capstone House-Rent Portal project developed to help visitors or tourists to arrange the staying place before or while traveling toTurkey.  The website aimed to provide many options for finding affordable and suitable houses/apartments in different cities in Turkey. The main page contains some descriptive information about using the search portal and includes a search bar where users can enter the city they plan to visit. The search result will bring them to a more detailed page to see different house pictures for that particular city. The user may click one of those pictures to check some detailed information about the house/apartment or narrow down their search by filtering through the given options. After selecting a specific house, the search result will redirect them to the application page to see more detailed information about the place, location, and booking option.</p>
 
 ![screenshot](./images/screenshot.png)
 
+## Technical Talking Points
+ The pages are responsive and designed for different types of devices. Also, the user can easily navigate through the pages.
 
-
-## Built With
-
-- HTML & CSS
-- Bootstrap
+## Technologies & Languages 
+The website was build using HTML, CSS, and Bootstrap. I used  Bootstrap to sharpen my knowledge of using Bootstrap and complete the project on the stated deadline.   
 
 
 ## Live Demo
 
-[Live Demo Link](https://takhmina175.github.io/Directory-of-Houses-To-Rent/)
+[Live Demo Link](https://raw.githack.com/Takhmina175/Directory-of-Houses-To-Rent/master/index.html)
 
 ## Video Explanation
 
