@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 <h1>House/apartment renting portal</h1>
-
-><p>Capstone House-Rent Portal project developed to help visitors or tourists to arrange the staying place before or while traveling toTurkey.  The website aimed to provide many options for finding affordable and suitable houses/apartments in different cities in Turkey. The main page contains some descriptive information about using the search portal and includes a search bar where users can enter the city they plan to visit. The search result will bring them to a more detailed page to see different house pictures for that particular city. The user may click one of those pictures to check some detailed information about the house/apartment or narrow down their search by filtering through the given options. After selecting a specific house, the search result will redirect them to the application page to see more detailed information about the place, location, and booking option.</p>
+## Project Description
+><p>Capstone House-Rent Portal project developed to help visitors or tourists to arrange the accomodation before or while traveling toTurkey.  The website aimed to provide many options for finding affordable and suitable houses/apartments in different cities in Turkey. The main page contains some descriptive information about using the search portal and includes a search bar where users can enter the city they plan to visit. The search result will bring them to a more detailed page to see different house pictures for that particular city. The user may click one of those pictures to check some detailed information about the house/apartment or narrow down their search by filtering through the given options. After selecting a specific house, the search result will redirect them to the application page to see more detailed information about the place, location, and booking option.</p>
 
 ![screenshot](./images/screenshot.png)
 
